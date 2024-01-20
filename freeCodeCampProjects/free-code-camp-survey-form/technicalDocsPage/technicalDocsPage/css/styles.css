@@ -1,0 +1,95 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100%;
+    overflow: hidden;
+}
+
+body {
+    display: flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+main {
+    width: 75vw;
+    overflow-y: scroll;
+}
+
+section {
+    padding: 20px;
+}
+
+aside {
+    width: 25vw;
+    height: 100%;
+    background-color: white;
+    overflow-y: scroll;
+    padding: 0 10px;
+    border: 1px solid #ccc;
+    min-width: 160px;
+    
+}
+
+header {
+    padding: 10px;
+}
+
+aside nav header h1 {
+    text-align: center;
+}
+
+aside nav ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    overflow: auto;
+}
+
+a {
+    text-decoration: none;
+    color: #838383;
+}
+
+li {
+    padding: 15px;
+}
+
+hr {
+    margin: 0;
+}
+
+p {
+    margin-left: 1.5em;
+    padding-right: 0;
+    line-height: 1.5em;
+    display: block;
+    
+}
+
+p, li {
+    color: #838383;
+}
+
+
+
+code {
+    margin: 1em 3em;
+    padding: 1em;
+    background-color: #ccc;
+    display: block;
+    border-radius: 1em;
+    color: rgb(77, 75, 75);
+}
+
+ul {
+    margin-left: 3.5%;
+}
+
+
+aside nav ul li:hover {
+    background-color: #e2e2e2;
+}
+
+
+
